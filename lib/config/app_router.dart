@@ -21,6 +21,9 @@ class AppRouter {
 
       case ProductScreen.routeName:
         return ProductScreen.route();
+      
+      case ProfileScreen.routeName:
+        return ProfileScreen.route();
 
       default:
         return _errorRoute();
