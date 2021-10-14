@@ -1,4 +1,5 @@
 import 'package:demi/config/app_router.dart';
+import 'package:demi/config/theme.dart';
 import 'package:flutter/material.dart';
 import 'screens/screens.dart';
 
@@ -12,7 +13,7 @@ class DemiShop extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Demi-Shop",
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: theme(),
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialRoute: HomeScreen.routeName,
     );
