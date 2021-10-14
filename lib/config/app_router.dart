@@ -19,6 +19,9 @@ class AppRouter {
       case CatalogScreen.routeName:
         return CatalogScreen.route();
 
+      case ProductScreen.routeName:
+        return ProductScreen.route();
+
       default:
         return _errorRoute();
     }
