@@ -16,7 +16,7 @@ class ProductScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(title: "Cart"),
+      appBar: CustomAppBar(title: "Product"),
       bottomNavigationBar: CustomNavBar(),
     );
   }
