@@ -43,7 +43,7 @@ class HeroCarousel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(5.0),
+      margin: EdgeInsets.symmetric(horizontal: 5.0, vertical: 20),
       child: ClipRRect(
           borderRadius: BorderRadius.all(Radius.circular(5.0)),
           child: Stack(
