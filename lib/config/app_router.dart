@@ -25,6 +25,9 @@ class AppRouter {
       case ProfileScreen.routeName:
         return ProfileScreen.route();
 
+      case WishlistScreen.routeName:
+        return WishlistScreen.route();
+
       default:
         return _errorRoute();
     }
