@@ -27,7 +27,7 @@ class Product extends Equatable {
             isPopular
           ];
 
-  static List<Product> categories = [
+  static List<Product> products = [
     Product(
         name: "Silhouettes",
         category: "Heels",
