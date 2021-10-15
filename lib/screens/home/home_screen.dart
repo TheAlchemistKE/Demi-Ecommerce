@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           SectionTitle(title: "RECOMMENDED"),
-          ProductCard(product: Product.products[0]),
+          ProductCarousel()
         ],
       ),
     );
