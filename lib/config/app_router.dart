@@ -1,3 +1,4 @@
+import 'package:demi/models/models.dart';
 import 'package:demi/screens/screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -20,7 +21,7 @@ class AppRouter {
         return CatalogScreen.route();
 
       case ProductScreen.routeName:
-        return ProductScreen.route();
+        return ProductScreen.route(product: settings.arguments as Product);
       
       case ProfileScreen.routeName:
         return ProfileScreen.route();
